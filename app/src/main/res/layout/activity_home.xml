@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/couleur_fond1"
+    tools:context="com.example.charles.workingplace.Vue.Home">
+
+    <Button
+        android:id="@+id/infoBouton"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:background="@drawable/button_bg_rounded_color_main"
+        android:fontFamily="@font/work_sans_light"
+        android:text="Map"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="112dp"
+
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="      Bienvenue sur WorkingPlace"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/explication"
+        android:layout_width="327dp"
+        android:layout_height="201dp"
+        android:fontFamily="@font/work_sans_light"
+        android:text="Cette application te permettra de trouver un lieu d'étude près de chez toi.
+Rien de plus simple, reserve en groupe ou seul et attend toi à travailler dans un endroit calme conviviale.
+
+N'attend plus, c'est gratuit !"
+        android:textAllCaps="false"
+        android:textColor="#000001 "
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <TextView
+        android:id="@+id/texteBienvenue"
+        android:layout_width="190dp"
+        android:layout_height="33dp"
+        android:textAllCaps="false"
+        android:textColor="#F9B72F"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <Button
+        android:id="@+id/creerLieu"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button_bg_rounded_color_main"
+        android:fontFamily="@font/work_sans_light"
+        android:text="Ajout Lieu"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+
+    <Button
+        android:id="@+id/deconnexion"
+        android:layout_width="17dp"
+        android:layout_height="20dp"
+
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>

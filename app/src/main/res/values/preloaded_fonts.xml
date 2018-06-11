@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/amaranth</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/lily_script_one</item>
+        <item>@font/work_sans_bold</item>
+        <item>@font/work_sans_light</item>
+        <item>@font/work_sans_thin</item>
+    </array>
+</resources>

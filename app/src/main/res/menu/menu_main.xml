@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.charles.workingplace.Vue.MainActivity">
+
+    <item android:id="@+id/item_deconnexion"
+        android:title="Deconnexion"
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item_info_perso"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Espace personnel"
+        app:showAsAction="never"/>
+
+
+
+</menu>

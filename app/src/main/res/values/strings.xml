@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WorkingPlace</string>
+    <string name="action_settings">Settings</string>
+    <string name="enregistrer">Register</string>
+    <string name="mdp">Password</string>
+
+    <string name="notification_title">Hello and welcome on our app</string>
+    <string name="notification_desc">Have a nice meal!</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
